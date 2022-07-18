@@ -63,8 +63,8 @@
             {
                   "thnlText1": "",
                   "thnlText2": "Tumbler Composite",
-                  "thnl": "../assets/thnl/Tumbler.jpg",
-                  "dotSlot": "../assets/img/lg-tumbler.jpg",
+                  "thnl": "assets/thnl/Tumbler.jpg",
+                  "dotSlot": "assets/img/lg-tumbler.jpg",
                   "f.widthThnl": "900",
                   "f.heightThnl": "686"
                  
