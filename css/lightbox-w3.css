@@ -154,7 +154,7 @@ img {
 
 img.hover-shadow {
   transition: 190ms;
-  opacity: 0.1;
+  opacity: 1;
 }
 
 .hover-shadow:hover {
