@@ -80,7 +80,7 @@ $(function strip() {
 });
 
 
-      document.onreadystatechange = function () {
+/*       document.onreadystatechange = function () {
       var state = document.readyState
       if (state == 'interactive') {
             document.getElementById('contents').style.visibility="hidden";
@@ -106,7 +106,7 @@ $(function strip() {
           },100);
       }
     }
-
+ */
 
  
     
