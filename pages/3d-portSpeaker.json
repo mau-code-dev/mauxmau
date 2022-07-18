@@ -1,0 +1,78 @@
+{
+      "page": [
+          {
+             
+              "slideText": "Portable Speaker",
+              "note1": "hidden",     
+              "note2": "hidden",
+                "note3": "hidden",
+           
+
+              "popText1": "",
+              "popText2": "",
+              "popText3": "",
+
+              "text3": "Interavtive 3D Model of portable speaker product with earbuds",
+
+              "list1": "3D Model " ,
+              "listv1": "" ,
+              "list2": "  " ,
+              "listv2": "none" ,
+              "list3": "  " ,
+              "listv3": "none" ,
+              "list4": "   " ,
+              "listv4": "none" ,
+              "list5": "" ,
+              "listv5": "none" ,
+              "list6": "" ,
+              "listv6": "none" ,
+              "list7": "" ,
+              "listv7": "none" ,
+              "list8": "" ,
+              "listv8": "none" ,
+
+              "text4": "",
+              "text5": "",
+              "text6": "",
+
+              "outAtt": "gITF Model Viewer",  
+
+              "Icon1": "assets/img/icons/blender.png' title='Blender",
+              "Icon2": "",
+              "Icon3": "",
+              "Icon4": "",
+              "Icon5": "",
+
+              "ratio": "ratio ratio-4x3",
+              "video": "portSpeaker/index.html",
+              "img": "",
+
+              "widthLg": "450",
+              "heightLg": "415",
+              "circleMarkTop1": "10%",
+              "circleMarkLeft1": "50%",
+              "circleMarkTop2": "100%",
+              "circleMarkLeft2": "100%",
+              "circleMarkTop3": "140%",
+              "circleMarkLeft3": "10%"
+
+          }
+
+      ],
+
+      "slide": [
+            {
+                  "thnlText1":"",
+                  "thnlText2":  "Portable Speaker",
+                  "thnl": "assets/thnl/portSpeaker.jpg",
+                  "dotSlot": "assets/thnl/portSpeaker.jpg",
+                  "f.widthThnl": "571",
+                  "f.heightThnl": "318"
+                 
+
+            }
+      ]
+
+
+   }
+   
