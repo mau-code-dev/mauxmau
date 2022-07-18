@@ -160,8 +160,8 @@ img.hover-shadow {
 .hover-shadow:hover {
   box-shadow: 0 4px 8px 5px rgba(27, 27, 27, 0.56);
   transform: scale(1.035);
-  opacity: 0.1;
-  background: red;
+  opacity: 1;
+  
 
 }
 
