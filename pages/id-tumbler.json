@@ -45,7 +45,7 @@
                    
                   "ratio": "ratio-16x9",
                    "video": "",
-                   "img": "../assets/img/lg-tumbler.jpg",
+                   "img": "assets/img/lg-tumbler.jpg",
     
                   "widthLg": "450",
                   "heightLg": "415",  
