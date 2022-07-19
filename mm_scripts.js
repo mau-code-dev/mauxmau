@@ -1,3 +1,8 @@
+
+
+
+
+
 var json = [
        0,  
       'mg-phone.json',
@@ -80,35 +85,7 @@ $(function strip() {
 });
 
 
-/*       document.onreadystatechange = function () {
-      var state = document.readyState
-      if (state == 'interactive') {
-            document.getElementById('contents').style.visibility="hidden";
-            document.getElementById('load-1').style.visibility="visible";
-         
-           document.getElementById('page-top').style.background="#000";
-           document.getElementById('page-top').style.zindex="1000";
-           document.getElementById('page-top').style.visibility="hidden";
-       
-          
-       
-          
-      } else if (state == 'complete') {
-          setTimeout(function(){
-             document.getElementById('interactive');
-             document.getElementById('contents').style.zindex="inherit";
-             document.getElementById('page-top').style.background="inherit";
-             document.getElementById('page-top').style.visibility="visible";
-            
-             document.getElementById('load-1').style.visibility="hidden";
 
-             document.getElementById('contents').style.visibility="visible";
-          },100);
-      }
-    }
- */
-
- 
     
 
 window.onload = function(){
@@ -148,7 +125,6 @@ window.onload = function(){
 
 
 
-
 $(function () {
 
          var i = 0;
@@ -168,6 +144,7 @@ $(function () {
 
 
 
+      
       
 function skillLoader(a) {
 
@@ -205,7 +182,6 @@ function skillLoader(a) {
                         };
  
             
-
 
 
 
@@ -279,6 +255,35 @@ while (i < slideMax.length+1) {
             }; 
      
 
+ 
+$(function () {
+
+
+      var menuItem1 = document.getElementById("title1");
+      var menuItem2 = document.getElementById("title2");
+      var menuItem3 = document.getElementById("title3");
+
+      var vidMenuTitle =  "Video & Motion Graphics";
+      var interTitle =  "Interactive Media & 3D Modeling";
+      var graphTitle =  "Graphics & Illustrative Design";
+     
+      menuItem1.style.transition = "700ms";
+      menuItem1.style.transitionDelay = "1s";
+      menuItem1.style.color = "#777";
+
+      menuItem2.style.transition = "700ms";
+      menuItem2.style.transitionDelay = "1s";
+      menuItem2.style.color = "#777";
+      
+      menuItem3.style.transition = "700ms";
+      menuItem3.style.transitionDelay = "1s";
+      menuItem3.style.color = "#777";
+      
+      
+      menuItem3.innerHTML =  graphTitle;
+      menuItem2.innerHTML =  interTitle;
+      menuItem1.innerHTML = vidMenuTitle;
+});           
 
 
 function openModal() {
@@ -510,30 +515,6 @@ var arr = [1,2,3]
  var markDir3 = "#page" + j + "circle" +  arr[2];
 
 
-/*   for(i = 0; i < 3; i++) {
-
-      var test = "#page" + f.slide + "circle" + i;
- 
-      $(test).css(); 
- 
- }
-  */
-
-
-/*  for(i = 0; i < 3; i++) {
- 
-       var tess = "#page" + f.slide + "Message" + i;
-  
-
-      $(tess).css({display: none}); 
-  
-  }
-   */
- 
-
-
-
-
 
 $(pageSlide).appendTo("#userdata"+"-" + j );
 
@@ -543,46 +524,6 @@ $(markDir2).css({'left': CML2 , 'top': CMT2 });
 $(markDir3).css({'left': CML3 , 'top': CMT3 }); 
 
 
-/* var fbtn = 49;
-
-     
-window.onkeydown= function(KeyPress) {
-      
-      if(KeyPress.keyCode === fbtn)  {
-                    
-                  
-    
-      annote(j, 1);
-              
-         };
-
-      }; */
-
-/* 
-var arr = [1,2,3]
-
-$("page" + j.slide + "circle" + arr[0]).css();
-$("page" + j.slide + "circle" + arr[1]).css();
-$("page" + j.slide + "circle" + arr[2]).css();
-
-$("page" + j.slide + "Message" + arr[0]).css({display: none});
-$("page" + j.slide + "Message" + arr[1]).css({display: none});
-$("page" + j.slide + "Message" + arr[2]).css({display: none});
- */
-
-/* $(var test = "#page" + f.slide + "Message" + arr[0].css({display: none;});)
-$(var test2 = "#page" + f.slide + "Message" + arr[1].css({display: none;});)
-$(var test3 = "#page" + f.slide + "Message" + arr[2].css({display: none;});) */
-
-
-
-
-
-
-
-
-
-
 
 });
 
@@ -595,14 +536,14 @@ $(var test3 = "#page" + f.slide + "Message" + arr[2].css({display: none;});) */
 
 
 });
-
-
-
 
 
 
 
 } ;  
+
+
+
 
 
 
@@ -630,21 +571,7 @@ function drkmode() {
 
     
     
-    //var vv = btntst.getAttribute('value').;
-    
-   // var txtch = document.getElementsByClassName('nav-link');
-   // for(var i = 0; i < txtch.length; i++ ) {
 
-   //   document.getElementById(txtch.item(i)).className = "nav-link-dk";
-
-
-  //  txtch.style.color = "red !important";
-
-   // }
-   // $('.nav-link').css("color" , "blue !important");
-    
-    
-    //alert(btntst)
     
     if( ccc == 0) {
      
@@ -666,24 +593,16 @@ function drkmode() {
 }
 
 
+
+
+
+
+
 var drkmd = document.getElementById('drkMdBtn');
 drkmd.addEventListener('click', drkmode);
 
 
 
-function dkMv() {
-
-     // var x = document.getElementById('drkDot');
-
-   //   x.style.width = "20px";
-      
-      
-      alert("woe");
-
-}
 
 var d2d = document.getElementById('drkMdBtn');
 d2d.addEventListener('click', dkMv);
-
-
-
