@@ -803,7 +803,35 @@
 
 </div> 
 
+<script>
+   document.onreadystatechange = function () {
+      var state = document.readyState
+      if (state == 'interactive') {
+            document.getElementById('contents').style.visibility="hidden";
+            document.getElementById('load-1').style.visibility="visible";
+         
+           document.getElementById('page-top').style.background="#000";
+           document.getElementById('page-top').style.zindex="1000";
+           document.getElementById('page-top').style.visibility="hidden";
+       
+          
+       
+          
+      } else if (state == 'complete') {
+          setTimeout(function(){
+             document.getElementById('interactive');
+             document.getElementById('contents').style.zindex="inherit";
+             document.getElementById('page-top').style.background="inherit";
+             document.getElementById('page-top').style.visibility="visible";
+            
+             document.getElementById('load-1').style.visibility="hidden";
 
+             document.getElementById('contents').style.visibility="visible";
+          },100);
+      }
+    }
+
+</script>
 
 </body>
 
