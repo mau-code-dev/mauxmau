@@ -403,8 +403,7 @@ $(box).appendTo("#userdata" + "-" + j);
 
 var runt = "hud-" + j;
 
-/*  document.getElementById(runt).onclick = goo; */
-// document.getElementById('iud').onclick = goo;
+
 
 
 $(function () { 
@@ -426,25 +425,10 @@ document.getElementById(did).removeChild(tv[i]);
 })
 
 
-/* var json = [
-      0,
-      'mg-phone.json',
-      'mg-turntable.json',
-      '3-page.json',
-      '4-page.json',
-      '5-page.json',
-      '6-page.json',
-      '3-page.json',,,,,'3-page.json',,,'3-page.json',
-      'mg-phone.json'
-]
-
-
- */
 
 
 
 
-/* $.getJSON('pages/' + j +'-page.json', function(data)  */
 
 $.getJSON('pages/' + json[j], function(data) {
 
