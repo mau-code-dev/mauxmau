@@ -248,7 +248,7 @@ window.addEventListener("scroll", () => {
                   fg.classList.add("profileText");
                   fg.classList.remove("profileTextShift");
                 
-                  document.getElementsByClassName("profileText").style.display = "none";
+                  fg.getElementsByClassName("profileText").style.display = "none";
 
              }
 
