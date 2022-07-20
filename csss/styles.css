@@ -1075,7 +1075,7 @@ a.close.disabled {
   opacity: .5;
   animation: animate;
   position: absolute;
-  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 202 202"><path d="M101,7A94,94,0,1,1,7,101,94.11,94.11,0,0,1,101,7m0-7A101,101,0,1,0,202,101,101,101,0,0,0,101,0Z" style="fill:white;" /></svg>');
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 202 202"><path d="M101,7A94,94,0,1,1,7,101,94.11,94.11,0,0,1,101,7m0-7A101,101,0,1,0,202,101,101,101,0,0,0,101,0Z" style="fill:lightcoral;" /></svg>');
   animation-duration: 800ms;
   animation-timing-function: linear;
   z-index: 1000
