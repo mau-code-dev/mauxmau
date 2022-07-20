@@ -43,7 +43,7 @@ $(function trip() {
   
             ds = i +1;
                   
-                  console.log("slot-" + ds);
+                  console.log(currentSlide);
      
             var utt = "slot-" + ds;
 
