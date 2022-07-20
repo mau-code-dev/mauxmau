@@ -208,7 +208,7 @@ function markTog(a,b) {
 
 }; */
 
-function videoClose() {
+/* function videoClose() {
 
       vid = document.getElementById("myPlayer").src = "https://player.vimeo.com/video/686458155?h=78a6d434bb";
       vid.getElementById("myPlayer").load(); 
@@ -217,7 +217,7 @@ function videoClose() {
      
 
 };
-
+ */
 
 
 
