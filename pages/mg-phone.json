@@ -42,8 +42,8 @@
                "Icon4": "assets/img/icons/premiere.png' title='Premiere",
                "Icon5": "",
 
-               "ratio": "ratio ratio-16x9",
-               "video": "https://www.youtube.com/embed/v_mlCZ-tqCM",
+               "ratio": "",
+               "video": "<div class='framer'><div class='ratio ratio-16x9 m-auto'><iframe style='overflow:hidden;' class='videoPlayer' width='' height='' id='myPlayer' src='https://www.youtube.com/embed/v_mlCZ-tqCM' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe></div></div>",
                "img": "",
 
               "widthLg": "450",

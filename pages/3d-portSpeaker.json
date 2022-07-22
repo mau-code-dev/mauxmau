@@ -43,8 +43,8 @@
               "Icon4": "",
               "Icon5": "",
 
-              "ratio": "ratio ratio-4x3",
-              "video": "portSpeaker/index.html",
+              "ratio": "",
+              "video": "<div class='framer'><div class='ratio ratio-4x3 m-auto'><iframe style='overflow:hidden;' class='videoPlayer' width='' height='' id='myPlayer' src='portSpeaker/index.html' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe></div></div>",
               "widthLg": "800",
               "heightLg": "600",
               
