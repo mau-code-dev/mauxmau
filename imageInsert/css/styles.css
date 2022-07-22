@@ -14,45 +14,8 @@ transform: translate(-50%, -50%);
 
 }
 
-/* .shoe {
-
-      margin-top: auto;
-      margin-bottom: auto;
-
-} */
-
-/* 
-.centerTest {
-      position: fixed;
-      width: 820px;
-      height: 800px;
-      left: 50%;
-      ackground-image: url(../luft_cube-1.jpg);
-      background-repeat: no-repeat;
-      top: 50%;
-      background-size: cover;
-      transform: translate(-50%, -50%);
-      transition: all 900ms;
-      transition-timing-function: cubic-bezier(.65,.18,.59,.74);
-} */
 
 
-/* .tester {
-
-background-image: url(../cinemaLights.jpg);
-transition: all 900ms;
-transition-timing-function: cubic-bezier(.65,.18,.59,.74);
-position: fixed;
-width: 600px;
-height: 600px;
-left: 50%;
-background-repeat: no-repeat;
-top: 50%;
-background-size: cover;
-transform: translate(-50%, -50%);
-olor: #FFF;
-
-} */
 
 
 .text1 {
@@ -86,12 +49,7 @@ olor: #FFF;
 }
 
 
-box {
-	width: 100px;
-	background-color: red;
 
-
-}
 
 
 
@@ -111,11 +69,6 @@ position: absolute;
 }
 
 
-h1 {
-osition: fixed;
-idth:50px;
-
-}
 
 #labelxy-1 {
 
@@ -135,7 +88,7 @@ font-weight: 600;
 .play {
 
       position: fixed;
-      ackground-color: red;
+     
       width: 800px;
       height: 800px;
       left: 50%;
@@ -147,11 +100,9 @@ transform: translate(-50%, -50%);
 }
 
 button  {
-      idth: 80px;
+      
       background-color: transparent;
-      /* height: 30px;
-      color: white;
-      margin: 10px 0px 0px 0px; */
+   
 
 }
 
@@ -225,18 +176,29 @@ switch {
 
 .btnLab {
       background-color: #444;
-      adding: 0px 10px;
+     
       border-radius: 10px;
       font-weight: 500;
       color: #fff;
-      height: 40px !important;
+      
       font-size: 0.7rem;
       min-width: 5rem;
       display: inline-block;
       text-align: center;
       margin-left: -1rem;
-      padding: 0.5rem 0rem;
+      padding: 0.25rem 0rem;
+
       }
+
+@media (min-width: 800px) {
+
+.btnLab {
+      height: 40px !important;
+}
+      
+}
+
+
 
 .loadtext {
       font-size:0.9rem;

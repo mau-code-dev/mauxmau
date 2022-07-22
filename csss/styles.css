@@ -18,6 +18,10 @@ a:hover {
   padding: 1rem
 }
 
+.navbar-nav {
+  z-index: 999999 !important;
+}
+
 [role=button] {
   cursor: pointer
 }
@@ -456,7 +460,7 @@ a.close.disabled {
   ackground: rgba(255, 255, 255, 1);
   transition: 300ms;
   border-bottom: 3rem yelllow solid !important;
-  z-index: 22
+  z-index: 99999;
 }
 
 mainNav:hover {
