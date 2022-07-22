@@ -19,7 +19,7 @@ a:hover {
 }
 
 .navbar-nav {
-  z-index: 999999 !important;
+  z-index: 9999 !important;
   background: white;
 }
 
@@ -541,12 +541,13 @@ mainNav:hover {
 ;
 
 .shadow {
-  box-shadow: 0 0 15px rgba(0, 0, 0, .904)
+  box-shadow: 0 0 15px rgba(0, 0, 0, .904);
 }
 
 .navbar-expand-lg {
   display: flex !important;
-  flex-basis: auto
+  flex-basis: auto;
+  background: white;
 }
 
 .navbar-collapse {
