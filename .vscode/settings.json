@@ -1,3 +1,8 @@
 {
-               "workbench.colorTheme": "Default Dark+"
+               "workbench.colorTheme": "Visual Studio Dark",
+               "workbench.colorCustomizations": {
+                              "activityBar.background": "#311B72",
+                              "titleBar.activeBackground": "#4526A0",
+                              "titleBar.activeForeground": "#FBFAFE"
+               }
 }
