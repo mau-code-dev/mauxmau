@@ -43,12 +43,15 @@
                "Icon4": "",
                "Icon5": "",
 
-               "ratio": "ratio ratio-16x9",
+               "ratio": "ratio ratio-4x3",
                "video": "",
-               "img": "assets/img/quanta.jpg",
+               "widthLg": "",
+              "heightLg": "",  
 
-              "widthLg": "450",
-              "heightLg": "450",  
+               "img": "assets/img/quanta.jpg",
+               "imgW": "1000",
+               "imgH": "1000",
+
               "circleMarkTop1": "80%",
               "circleMarkLeft1": "80%",
               "circleMarkTop2": "80%",

@@ -46,10 +46,12 @@
 
               "ratio": "ratio ratio-3x2",
               "video": "imageInsert/index.html",
+              "widthLg": "900",
+              "heightLg": "600",
+              
               "img": "",
-
-              "widthLg": "650",
-              "heightLg": "650",
+              "imgW": "",
+              "imgH": "",
            
               "circle1": "1",
               "circle2": "2",

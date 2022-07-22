@@ -45,10 +45,12 @@
 
               "ratio": "ratio ratio-4x3",
               "video": "LuftModel/index.html",
+              "widthLg": "800",
+              "heightLg": "600",
+              
               "img": "",
-
-              "widthLg": "450",
-              "heightLg": "415",
+              "imgW": "",
+              "imgH": "",
               "circleMarkTop1": "10%",
               "circleMarkLeft1": "50%",
               "circleMarkTop2": "100%",

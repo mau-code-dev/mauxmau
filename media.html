@@ -11,17 +11,13 @@
       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
             integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
-      <!-- MDB 
-  <link rel="stylesheet" href="css/mdb.min.css" />-->
-
-      <!--<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
-  <link rel="stylesheet" href="./style.css">-->
+     
 
       <!-- New lightbox CSS -->
-      <link rel="stylesheet" href="css/lightbox-w3.css" />
+      <link rel="stylesheet" href="css/lightbox-w3 copy.css" />
 
       <!-- Core theme CSS -->
-      <link rel="stylesheet" href="csss/styles.css" />
+      <link rel="stylesheet" href="csss/styles copy.css" />
 
       <!-- test css 
   <link href="csss/test/styles.css" rel="stylesheet" />-->
@@ -35,7 +31,7 @@
       <script type="text/javascript" src="js/lib/dynamics.min.js"></script>
 
         <!-- Imports pages -->
- <script type="text/javascript" src="mm_scripts.js"></script>   
+ <script type="text/javascript" src="mm_scripts2.js"></script>   
 
       <!-- Imports flex-gallery sources -->
       <script type="text/javascript" src="js/lib/flexgallery.js"></script>
@@ -77,49 +73,6 @@
             font-size: 3rem;
             margin-top: 3rem;
       }
-
-
-      #load-1 {
-      width:100%;
-      height:100%;
-      position:fixed;
-      z-index:9999;
-    
-      
-      background: rgb(240, 128, 128) !important;
-    
-
-    
-     
-    border: 16px solid #f3f3f3;
-    border-radius: 50%;
-    border-top: 16px solid  rgb(255, 176, 176);
-    width: 120px;
-    height: 120px;
-    -webkit-animation: spin 2s linear infinite; /* Safari */
-    animation: spin 2s linear infinite;
-
-    left: calc(50% - 60px);
-    top: 50%;
-  } 
-  
-  /* Safari */
-  @-webkit-keyframes spin {
-    0% { -webkit-transform: rotate(0deg); }
-
-    100% { -webkit-transform: rotate(360deg); }
-  }
-  
-  @keyframes spin { 
-    0% { transform: rotate(0deg); }
- 
-
-
-    100% { transform: rotate(360deg); }
-  
-
-  }
- 
 
       </style>
 
@@ -212,7 +165,7 @@
                               <div class="filter-row filter-cat-results " >
                                   <div ></div>
 <!-- Motion Graphics this is the new section--><center>
-                                    <div class="subTitle" id="titleHide1">  <p>Video & Motion Graphics </p></div></center>
+                                    <div class="subTitle" id="titleHide1">  </div><p class="subTitle" id="title1"></p></center>
 
                                           <!--Motion Graphics thnl 1 -->
                                           <div class="fg-item hide-cat f-cat" >
@@ -232,7 +185,7 @@
                                                 <span class="fg-text " id="thnlSec-3"></span>
                                           </div>
 
-       <div class="subTitle subTitleTop">  <p>Interactive Media & 3D Modeling</p></div> 
+       <div >  <p class="subTitle subTitleTop" id="title2"></p></div> 
                                         
                                           
                                           <!--Motion Graphics thnl 4 -->
@@ -272,7 +225,7 @@
                                           </div>
 
 
- <div class="subTitle subTitleTop">  <p>Graphics & Illustrative Design </p></div>
+ <div >  <p class="subTitle subTitleTop" id="title3"> </p></div>
 
                                           <!--thnl 9-->
                                           <div class="fg-item hide-cat f-cat" data-cat="cat-2" >
@@ -461,7 +414,7 @@
       
 
    
-       <!-- portfolio examples pop-up windows -->
+       <!-- portfolio examples pop-up windows++++++++++++++++++++++++++++++++++++++++++++++++++++++++-->
 
       <div id="myModal" class="modal-w3">
             <span class="lightClose cursor-w3" onclick="closeModal();videoClose()">&times;</span>
@@ -564,8 +517,8 @@
     
       
          
-          <a class="prev-w3" onclick="plusSlides(-1); videoClose()">&#10094;</a>
-            <a  class="next-w3" onclick="plusSlides(1); videoClose()">&#10095;</a> 
+          <a class="prev-w3" onclick="plusSlides(-1);">&#10094;</a>
+            <a  class="next-w3" onclick="plusSlides(1); ">&#10095;</a> 
 
            
             <div class="caption-container">
@@ -738,36 +691,34 @@
 
             
       </center>
+      <script type="text/javascript">
+            let media = $.getJSON('media.json', (media) => {
+                  $('#container').addFlexImages(media, true).flexGallery({
+                        margin: '1vmin',
+                        minHeightRatioWindow: 0.25,
 
+                        fadeInDuration: 2000,
+                        checkPeriod: 1000,
+                        autoAdjust: true
+                  });
+            });
+
+            $('#container').flexGallery();
+      </script>
      
  
-
-                  <script type="text/javascript">
-                        let media = $.getJSON('media.json', (media) => {
-                              $('#container').addFlexImages(media, true).flexGallery({
-                                    margin: '1vmin',
-                                    minHeightRatioWindow: 0.25,
-
-                                    fadeInDuration: 2000,
-                                    checkPeriod: 1000,
-                                    autoAdjust: true
-                              });
-                        });
-
-                        $('#container').flexGallery();
-                  </script>
 
 
 
                   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
-                  <script src="./script.js"></script>
+                <!--   <script src="./script.js"></script> -->
 
 
 
                   <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script> -->
 
                   <!-- main script -->
-                  <script src="../js/script.js" crossorigin="anonymous"></script>
+                <!--   <script src="../js/script.js" crossorigin="anonymous"></script> -->
                   <!-- JavaScript Bundle with Popper -->
                   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
                         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
@@ -780,7 +731,7 @@
                   <script src='https://npmcdn.com/isotope-layout@3/dist/isotope.pkgd.js'></script>
 
 
-                  <script src="./script.js"></script>
+                <!--   <script src="./script.js"></script> -->
                   <script src='https://npmcdn.com/isotope-layout@3/dist/isotope.pkgd.js'></script>
                   <script src='https://npmcdn.com/isotope-cells-by-column@1/cells-by-column.js'></script>
                   <script src='https://npmcdn.com/isotope-cells-by-row@1/cells-by-row.js'></script>
@@ -790,8 +741,8 @@
                   <script src="js\lib\isotope.pkgd.min.js"></script>
                   <script src='https://npmcdn.com/isotope-masonry-horizontal@2/masonry-horizontal.js'></script>
                   <script src='https://npmcdn.com/isotope-packery@2/packery-mode.pkgd.js'></script>
-                  <script src="./script.js"></script>
-                  <script src="js\lightbox.js"></script>
+                 <!--  <script src="./script.js"></script> -->
+                 
 
 
                   <script type="text/javascript" src="filter.js"></script>
@@ -840,41 +791,30 @@
       }
 
   
-
-
-      </script>
-
-</div> 
-
-<script>
-   document.onreadystatechange = function () {
+ /*      document.onreadystatechange = function () {
       var state = document.readyState
       if (state == 'interactive') {
-            document.getElementById('contents').style.visibility="hidden";
-            document.getElementById('load-1').style.visibility="visible";
-         
-           document.getElementById('page-top').style.background="#000";
-           document.getElementById('page-top').style.zindex="1000";
-           document.getElementById('page-top').style.visibility="hidden";
-       
-          
-       
-          
+           document.getElementById('contents').style.visibility="hidden";
       } else if (state == 'complete') {
           setTimeout(function(){
              document.getElementById('interactive');
-             document.getElementById('contents').style.zindex="inherit";
-             document.getElementById('page-top').style.background="inherit";
-             document.getElementById('page-top').style.visibility="visible";
-            
-             document.getElementById('load-1').style.visibility="hidden";
-
+             document.getElementById('load').style.visibility="hidden";
              document.getElementById('contents').style.visibility="visible";
-          },100);
+          },1000);
       }
-    }
+    } */
 
-</script>
+      </script>
+
+<script>
+
+      </script>
+
+
+
+</div> 
+
+
 
 </body>
 

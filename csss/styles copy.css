@@ -2106,7 +2106,10 @@ section {
 }
 
 #container2 {
-  padding-top: 1rem
+  padding-top: 1rem;
+  top: 0;
+  margin-top: 100px;
+  position: absolute;
 }
 
 .navbar-toggler {

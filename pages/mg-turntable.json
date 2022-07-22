@@ -44,10 +44,12 @@
 
               "ratio": "ratio ratio-16x9",
               "video": "https://www.youtube.com/embed/Lpjku_SoSDY",
+              "widthLg": "1600",
+              "heightLg": "900",
+              
               "img": "",
-
-              "widthLg": "450",
-              "heightLg": "415",
+              "imgW": "",
+              "imgH": "",
               "circleMarkTop1": "10%",
               "circleMarkLeft1": "50%",
               "circleMarkTop2": "100%",

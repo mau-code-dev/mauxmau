@@ -45,10 +45,13 @@
 
               "ratio": "ratio ratio-4x3",
               "video": "portSpeaker/index.html",
+              "widthLg": "800",
+              "heightLg": "600",
+              
               "img": "",
+              "imgW": "",
+              "imgH": "",
 
-              "widthLg": "450",
-              "heightLg": "415",
               "circleMarkTop1": "10%",
               "circleMarkLeft1": "50%",
               "circleMarkTop2": "100%",

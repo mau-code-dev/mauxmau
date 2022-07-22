@@ -43,12 +43,16 @@
               "Icon4": "assets/img/icons/blender.png'  title='blender",
               "Icon5": "",
 
-               "ratio": "ratio ratio-16x9",
+               "ratio": "",
                "video": "",
-               "img": "assets/img/rose.jpg",
+               "widthLg": "",
+               "heightLg": "",  
 
-              "widthLg": "450",
-              "heightLg": "450",  
+               "img": "assets/img/rose.jpg",
+               "imgW": "746",
+               "imgH": "561",
+
+           
               "circleMarkTop1": "80%",
               "circleMarkLeft1": "80%",
               "circleMarkTop2": "80%",
