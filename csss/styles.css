@@ -444,9 +444,7 @@ a.close.disabled {
   text-align: center
 }
 
-.navbar-nav {
-  padding-left: 61px
-}
+
 
 .navShade {
   box-shadow: 8px 10px 12px rgba(121, 121, 121, .271) !important;
@@ -545,7 +543,8 @@ mainNav:hover {
 .navbar-collapse {
   flex-basis: 100%;
   flex-grow: 1;
-  align-items: center
+  align-items: center;
+  
 }
 
 .ml-auto,
@@ -555,7 +554,9 @@ mainNav:hover {
 
 .navbar-toggler-icon {
   color: rgb(240, 240, 240);
-  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255,255,255,1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e")
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255,255,255,1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  
+ 
 }
 
 .cross-icon {
@@ -2073,7 +2074,14 @@ section {
 }
 
 .name {
-  margin-left: 3rem
+  margin-left: 0rem
+}
+
+
+@media (min-width: 1000px) {
+  .name {
+    margin-left: 3rem
+  }
 }
 
 .accent-3 {
@@ -2111,7 +2119,8 @@ section {
 
 .navbar-toggler {
   background-color: rgba(212, 212, 212, .5);
-  transition: 300ms
+  transition: 300ms;
+  margin-right: 1rem;
 }
 
 .navbar-toggler:hover {}
@@ -2220,7 +2229,7 @@ form {
 }
 
 #drkMd {
-  left: -1rem;
+  left: 0rem;
   position: relative;
   float: right;
   color: #aaa;
