@@ -75,7 +75,7 @@ var autoAdjusted = false;
                     *
                     * However, naturalWidth and naturalHeight do not work in IE8 or below
                     */
-                    $(fgItem).find(".fg-img")
+                    $(fgItem).find(".fg-img2")
                         .css("display", "none")
                         .on('load', (e) => {
                             /**
@@ -106,7 +106,7 @@ var autoAdjusted = false;
                                     });
                                 }
                             }, settings.checkPeriod);
-                            $(fgImg).attr("src", $(fgImg).attr("fg-img-src"));
+                            $(fgImg).attr("src", $(fgImg).attr("fg-img2-src"));
                         });
                     /**
                      * Hide the descriptions initially.
@@ -166,8 +166,8 @@ var autoAdjusted = false;
                 $("#container").addClass("fg-container").append(
                     $("<div>").addClass("fg-item").append(
                         $("<a>").attr("href", links[index]).append(
-                            $("<img>").addClass("fg-img")
-                                      .attr("fg-img-src", images[index])  //** this image is a thumbnail
+                            $("<img>").addClass("fg-img2")
+                                      .attr("fg-img2-src", images[index])  //** this image is a thumbnail
                         )
                     ).append(
                         $("<span>").addClass("fg-text")
@@ -231,7 +231,7 @@ function showText(fgItem) {
     /**
      * Darken the image.
      */
-    $(fgItem).find('.fg-img').each((index, element) => {
+    $(fgItem).find('.fg-img2').each((index, element) => {
         dynamics.animate(element, {
             opacity: 1
         }, {
@@ -264,7 +264,7 @@ function hideText(fgItem) {
     /**
      * Bounce back the image.
      */
-    $(fgItem).find('.fg-img').each((index, element) => {
+    $(fgItem).find('.fg-img2').each((index, element) => {
         dynamics.animate(element, {
             opacity: 1
         }, {
