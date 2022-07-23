@@ -93,8 +93,8 @@ window.onload = function(){
       var value = 0;
       var space_bar = 32;
       var close = 27;
-      var right_arrow = 39;
-      var left_arrow = 37;
+   //   var right_arrow = 39;
+   //   var left_arrow = 37;
       var Q_key = 81;
      
 
@@ -104,18 +104,18 @@ window.onload = function(){
               value++;
               demo.innerHTML = value;
           };
-          if(KeyPress.keyCode === right_arrow)
-         {
-            plusSlides(1); 
-         };
+      //     if(KeyPress.keyCode === right_arrow)
+      //    {
+      //       plusSlides(1); 
+      //    };
          if(KeyPress.keyCode === close || KeyPress.keyCode === Q_key )  {
             
                   closeModal();
          };
-         if(KeyPress.keyCode === left_arrow) {
+      //    if(KeyPress.keyCode === left_arrow) {
             
-            plusSlides(-1);
-            };
+      //       plusSlides(-1);
+      //       };
        
        
       };

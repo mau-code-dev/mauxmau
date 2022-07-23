@@ -7,7 +7,8 @@ body {
   font-weight: 500;
   font-family: 'Spartan', sans-serif;
   letter-spacing: .15rem;
-  line-height: 1.05rem
+  line-height: 1.05rem;
+  
 }
 
 a:hover {
@@ -16,11 +17,6 @@ a:hover {
 
 .navbar-brand {
   padding: 1rem
-}
-
-.navbar-nav {
-  z-index: 9999 !important;
-  background: white;
 }
 
 [role=button] {
@@ -449,10 +445,7 @@ a.close.disabled {
   text-align: center
 }
 
-.navbar {
-background: white !important;
-opacity: 1;
-}
+
 
 .navShade {
   box-shadow: 8px 10px 12px rgba(121, 121, 121, .271) !important;
@@ -464,8 +457,7 @@ opacity: 1;
   ackground: rgba(255, 255, 255, 1);
   transition: 300ms;
   border-bottom: 3rem yelllow solid !important;
-  z-index: 99999;
-  margin-left: -1rem;
+  z-index: 22
 }
 
 mainNav:hover {
@@ -477,7 +469,7 @@ mainNav:hover {
 }
 
 .nav-link-dk {
-  color: red !important
+  olor: red !important
 }
 
 .main-section-heading {
@@ -541,20 +533,18 @@ mainNav:hover {
 ;
 
 .shadow {
-  box-shadow: 0 0 15px rgba(0, 0, 0, .904);
+  box-shadow: 0 0 15px rgba(0, 0, 0, .904)
 }
 
 .navbar-expand-lg {
   display: flex !important;
-  flex-basis: auto;
-  background: white;
+  flex-basis: auto
 }
 
 .navbar-collapse {
   flex-basis: 100%;
   flex-grow: 1;
-  align-items: center;
-  
+  align-items: center
 }
 
 .ml-auto,
@@ -564,9 +554,7 @@ mainNav:hover {
 
 .navbar-toggler-icon {
   color: rgb(240, 240, 240);
-  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255,255,255,1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
-  
- 
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255,255,255,1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e")
 }
 
 .cross-icon {
@@ -994,20 +982,21 @@ a.close.disabled {
   font-size: 2rem;
   line-height: 1rem;
   color: #aaa;
-  opacity: .5
+  opacity: .5;
 }
 
 .mast {
   top: 100px;
   height: 100px;
   position: relative;
-  text-align: center
+  text-align: center;
 }
 
 .primary-dark-bg {
   background: rgba(255, 255, 255, 1);
   background: linear-gradient(to top, rgba(240, 240, 240, 1) 75% 50%, rgb(220, 220, 220));
-  transition: 1s
+  transition: 1s;
+  
 }
 
 .dark1-bg {
@@ -1024,8 +1013,7 @@ a.close.disabled {
 }
 
 .nav-item {
-  color: rgb(240, 240, 240) !important;
-  padding-left: 2rem;
+  color: rgb(240, 240, 240) !important
 }
 
 .nav-link {
@@ -2085,14 +2073,7 @@ section {
 }
 
 .name {
-  margin-left: 0rem
-}
-
-
-@media (min-width: 1000px) {
-  .name {
-    margin-left: 3rem
-  }
+  margin-left: 3rem
 }
 
 .accent-3 {
@@ -2125,13 +2106,15 @@ section {
 }
 
 #container2 {
-  padding-top: 1rem
+  padding-top: 1rem;
+  top: 0;
+  margin-top: 100px;
+  position: absolute;
 }
 
 .navbar-toggler {
   background-color: rgba(212, 212, 212, .5);
-  transition: 300ms;
-  margin-right: 1rem;
+  transition: 300ms
 }
 
 .navbar-toggler:hover {}
@@ -2240,12 +2223,11 @@ form {
 }
 
 #drkMd {
-  left: 2rem;
+  left: -1rem;
   position: relative;
   float: right;
   color: #aaa;
   font-size: .5rem
-
 }
 
 #drkMdBtn {
