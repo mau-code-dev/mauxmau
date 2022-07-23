@@ -18,6 +18,7 @@
 
  .modal-w3 {
        display: none;
+       
        position: fixed;
        z-index: 1;
        padding-top: 300px;
@@ -108,12 +109,12 @@
        color: #f2f2f2;
        font-size: 12px;
        padding: 8px 0rem;
-       osition: absolute;
+      
        top: 0
  }
 
  img {
-       margin: 0 0
+       margin: 0 0;
  }
 
  .caption-container {
@@ -121,12 +122,12 @@
        background-color: black;
        padding: 2px 16px;
        color: white;
-       display: none
+       display: none;
  }
 
  img.hover-shadow {
        transition: 190ms;
-       opacity: 1
+       opacity: 1;
  }
 
  .hover-shadow:hover {
@@ -137,7 +138,7 @@
  }
 
  .imageText {
-       olor: violet
+      
  }
 
  .bkgrd {
@@ -168,12 +169,12 @@
        opacity: .5;
        transition: 200ms;
        border: rgb(240, 128, 128) 4px solid;
-       transition: .3s
+       transition: .3s;
  }
 
  .thnl:hover {
        transform: scale(1.1);
-       border: none
+       border: none;
  }
 
  .riseThnl:hover {}
@@ -186,7 +187,7 @@
        padding: 1% 1%;
        margin: 0 0%;
        flex-wrap: wrap;
-       min-height: 15rem
+       min-height: 15rem;
  }
 
  .box-a {
@@ -215,7 +216,7 @@
        flex: 3 0 0%;
        transition: 1s;
        min-width: 300px;
-       argin: 1rem 0
+       argin: 1rem 0;
  }
 
  @media (min-width:1092px) {
@@ -252,19 +253,19 @@
        border: 1px #000 solid;
        transition: 500ms;
        display: inline-block;
-       margin: 1rem 25%
+       margin: 1rem 25%;
  }
 
  .dot:hover {
        border: solid 3px #333;
        background: rgb(99, 99, 99);
        font-size: 0;
-       animation: pulse 1s infinite
+       animation: pulse 1s infinite;
  }
 
  .textContainer {
        background: rgb(82, 132, 179);
-       margin: 5rem
+       margin: 5rem;
  }
 
  .comText {
@@ -274,16 +275,16 @@
  }
 
  .mau-m-3 {
-       margin: .5rem
+       margin: .5rem;
  }
 
  @keyframes pulse {
        from {
-             border: solid 9px rgb(240, 128, 128)
+             border: solid 9px rgb(240, 128, 128);
        }
 
        to {
-             border: solid 1px rgba(240, 128, 128, .5)
+             border: solid 1px rgba(240, 128, 128, .5);
        }
  }
 
@@ -296,7 +297,7 @@
        background: lightcoral;
        float: right;
        margin: 0px -30px 5px 0;
-       position: relative
+       position: relative;
  }
 
  #message1 {
@@ -312,9 +313,9 @@
  }
 
  .smallThnlRow {
-       min-height: 20vh
+       min-height: 20vh;
  }
 
  title {
-       background: red
+       background: red;
  }

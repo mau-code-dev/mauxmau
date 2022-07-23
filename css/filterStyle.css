@@ -130,7 +130,7 @@ button.cat-all:hover {
 
 .filter-row .hide-cat.active {
                opacity: 1;
-               display: inline-flex;
+               display: inline-block;
                -webkit-animation: fadeIn .35s ease forwards;
                animation: fadeIn .35s ease forwards
 }

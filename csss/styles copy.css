@@ -7,7 +7,8 @@ body {
   font-weight: 500;
   font-family: 'Spartan', sans-serif;
   letter-spacing: .15rem;
-  line-height: 1.05rem
+  line-height: 1.05rem;
+  
 }
 
 a:hover {
@@ -468,7 +469,7 @@ mainNav:hover {
 }
 
 .nav-link-dk {
-  color: red !important
+  olor: red !important
 }
 
 .main-section-heading {
@@ -981,20 +982,21 @@ a.close.disabled {
   font-size: 2rem;
   line-height: 1rem;
   color: #aaa;
-  opacity: .5
+  opacity: .5;
 }
 
 .mast {
   top: 100px;
   height: 100px;
   position: relative;
-  text-align: center
+  text-align: center;
 }
 
 .primary-dark-bg {
   background: rgba(255, 255, 255, 1);
   background: linear-gradient(to top, rgba(240, 240, 240, 1) 75% 50%, rgb(220, 220, 220));
-  transition: 1s
+  transition: 1s;
+  
 }
 
 .dark1-bg {
