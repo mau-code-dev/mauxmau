@@ -529,7 +529,7 @@
 <center>
             <!--+++++++++++++++++ Secondary slide thumbnails+++++++++++++++++++-->
 
-            <div style="width: 90%;" >
+            <div id="secondContainer">
 
                   <div class=" galbk  m-4">
 
@@ -692,7 +692,7 @@
             
       </center>
       <script type="text/javascript">
-            let media = $.getJSON('media.json', (media) => {
+         /*    let media = $.getJSON('media.json', (media) => {
                   $('#container').addFlexImages(media, true).flexGallery({
                         margin: '1vmin',
                         minHeightRatioWindow: 0.25,
@@ -701,7 +701,7 @@
                         checkPeriod: 1000,
                         autoAdjust: true
                   });
-            });
+            }); */
 
             $('#container').flexGallery();
       </script>

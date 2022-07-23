@@ -314,8 +314,15 @@ img.hover-shadow {
 
 .smallThnlRow {
       min-height: 20vh;
+   
 }
 
 title {
-      background: red;
+
+}
+
+#secondContainer {
+      height: 100vh;
+      ackground: red;
+
 }
