@@ -2323,3 +2323,7 @@ form {
 #title1,#title2, #title3 {
   color: transparent;
 }
+
+.dark1-text {
+  color:#888 !important;
+}

@@ -562,14 +562,19 @@ function drkmode() {
       var f = document.getElementById('mainNav');
       var g = document.getElementById('about');
       var h = document.getElementById('navbar3');
+      var k = document.getElementById('navDarkText1');
+      var m = document.getElementsByClassName("nav-link");
 
      e.classList.toggle('dark1-bg');      
      x.classList.toggle('dark1-bg');     
      f.classList.toggle('dark1-bg');  
+     k.classList.toggle('dark1-text'); 
      g.classList.toggle('dark1-bg');  
      h.classList.toggle('dark1-bg');  
      
-
+     for(i = 0; i < m.length; i++) {
+     m[i].classList.toggle('dark1-text');
+     }
     
     
 
