@@ -564,6 +564,7 @@ function drkmode() {
       var h = document.getElementById('navbar3');
       var k = document.getElementById('navDarkText1');
       var m = document.getElementsByClassName("nav-link");
+      var n = document.getElementById("contact");
 
      e.classList.toggle('dark1-bg');      
      x.classList.toggle('dark1-bg');     
@@ -571,6 +572,7 @@ function drkmode() {
      k.classList.toggle('dark1-text'); 
      g.classList.toggle('dark1-bg');  
      h.classList.toggle('dark1-bg');  
+     n.classList.toggle('dark1-bg');  
      
      for(i = 0; i < m.length; i++) {
      m[i].classList.toggle('dark1-text');

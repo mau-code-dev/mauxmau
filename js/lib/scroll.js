@@ -239,7 +239,7 @@ window.addEventListener("scroll", () => {
               
 
              } else {        
-
+                  e = document.getElementById("profileImage");
                   fg = document.getElementById("textProfileShift");
 
                   e.classList.remove("leftShift");
@@ -248,7 +248,14 @@ window.addEventListener("scroll", () => {
                   fg.classList.add("profileText");
                   fg.classList.remove("profileTextShift");
                 
-                  fg.getElementsByClassName("profileText").style.display = "none";
+                  var tst = document.getElementsByClassName("profileText")
+
+                  for(i = 0; i < tst.length; i++ ) {
+                  
+                        tst[i].style.display = "inline";
+
+                  }
+               
 
              }
 
