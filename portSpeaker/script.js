@@ -13,3 +13,35 @@ const onProgress = (event) => {
   }
 };
 document.querySelector('model-viewer').addEventListener('progress', onProgress);
+/* 
+var isSafari = navigator.vendor && navigator.vendor.indexOf('Apple') > -1 &&
+navigator.userAgent &&
+navigator.userAgent.indexOf('CriOS') == -1 &&
+navigator.userAgent.indexOf('FxiOS') == -1;
+
+var el = document.createElement("p");
+el.innerText = "Is it Safari: " + isSafari;
+
+if (isSafari == True) {
+
+var ttt = document.getElementById("test");
+
+
+ttt.style.display = "inline";
+
+
+}
+
+var isSafari2 = window.safari !== undefined;
+if (isSafari2) alert("Safari, yeah!"); */
+
+if (navigator.userAgent.search("Safari") >= 0 && navigator.userAgent.search("Chrome") < 0) 
+{
+   
+var ttt = document.getElementById("test");
+
+
+ttt.style.display = "inline";  
+
+
+}
