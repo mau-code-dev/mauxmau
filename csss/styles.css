@@ -2120,6 +2120,7 @@ section {
 cursor: pointer;
 overflow-x: scroll;
 overflow-y: hidden;
+transition: 1s;
 
 
 }

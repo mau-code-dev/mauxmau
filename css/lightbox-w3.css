@@ -37,7 +37,7 @@
       transition: 2sec;
       background-color: rgba(33, 33, 33, 1);
      
-      
+      transition: 1s;
       
       
 }
@@ -49,6 +49,7 @@
       padding: 0;
       width: 100%;
       max-width: 1500px;
+      
      
      
       
@@ -281,8 +282,13 @@ img.hover-shadow {
 
 .comText {
       position: relative;
-      top: 15px;
-      display: block
+      top: 25px;
+     
+      font-size: 0.7rem;
+      letter-spacing: 0.05rem;
+      text-align: justify !important;
+      text-justify: inter-character !important;
+
 }
 
 .mau-m-3 {

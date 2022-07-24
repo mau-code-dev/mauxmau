@@ -75,7 +75,7 @@ $(function strip() {
          
       var tar = document.getElementById(uop);
 
-      tar.setAttribute("onclick", "currentSlide(" + dsd + ");videoClose();"); 
+      tar.setAttribute("onclick", "currentSlide(" + dsd + ")"); 
 
 
 
