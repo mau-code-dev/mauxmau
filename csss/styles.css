@@ -42,6 +42,8 @@ a:hover {
 
 }
 
+
+
 .modal-open {
   overflow: hidden;
 }
@@ -2108,12 +2110,63 @@ section {
 }
 
 #container2 {
-  padding-top: 1rem;
+  width: 100%;
   top: 0;
-  margin-top: 100px;
+  margin-top: 120px;
   position: absolute;
-  
+  max-height: 110px;
+  padding: 1rem 1rem 9rem 1rem;
+
+cursor: pointer;
+overflow-x: scroll;
+overflow-y: hidden;
+
+
 }
+
+#container2::after {
+
+  content: "";
+  clear: both;
+  display: table;
+ 
+}
+
+.smallThnlRow {
+  
+  width: 180rem;
+  
+
+}
+
+
+
+
+
+
+#rowStack {
+  height: 150px;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  display: inline;
+  width: 100%;
+  float: left;
+ display: inline;
+}
+
+
+#secondContainer {
+
+
+
+}
+
+
+.navbar {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
 
 .navbar-toggler {
   background-color: rgba(212, 212, 212, .5);
@@ -2171,6 +2224,7 @@ section {
 
 .galbk {
   background: transparent
+
 }
 
 #skills {

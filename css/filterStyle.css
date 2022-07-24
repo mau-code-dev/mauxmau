@@ -132,7 +132,18 @@ button.cat-all:hover {
                opacity: 1;
                display: inline-block;
                -webkit-animation: fadeIn .35s ease forwards;
-               animation: fadeIn .35s ease forwards
+               animation: fadeIn .35s ease forwards;
+}
+
+.filter-row2 .hide-cat.active {
+               opacity: 1;
+              loat: left;
+            osition: relative;
+              isplay: block;
+               -webkit-animation: fadeIn .35s ease forwards;
+               animation: fadeIn .35s ease forwards;
+               ackground: red;
+               
 }
 
 @-webkit-keyframes fadeIn {
