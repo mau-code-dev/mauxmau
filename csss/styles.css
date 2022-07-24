@@ -2113,10 +2113,10 @@ section {
 #container2 {
   width: 100%;
   top: 0;
-  margin-top: 80px;
+  margin-top: 40px;
   position: absolute;
-  max-height: 110px;
-  padding: 4rem 1rem 5rem 1rem;
+  max-height: 170px;
+  padding: 2rem 1rem 5rem 1rem;
 
 cursor: pointer;
 overflow-x: scroll;
