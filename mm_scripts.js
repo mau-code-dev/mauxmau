@@ -400,13 +400,13 @@ $(function () {
 
 
 
-var box = "<div id='box' ><div>asdasd</div></div>";
-$(box).appendTo("#userdata" + "-" + j);
+//var box = "<div id='box' ><div></div></div>";
+//$(box).appendTo("#userdata" + "-" + j);
 
 
 
 
-var runt = "hud-" + j;
+//var runt = "hud-" + j;
 
 
 
@@ -427,7 +427,7 @@ document.getElementById(did).removeChild(tv[i]);
 }
 }
 
-})
+});
 
 
 
