@@ -180,13 +180,14 @@ button {
   width: 130px;
   background: #aaa;
   height: 10px;
-  margin: 1rem;
+ 
   position: absolute;
   cursor:pointer;
   font-size: 0.6rem;
   letter-spacing: 0.05rem;
   padding: 0.2rem 0.25rem 0.25rem 0rem ;
-
+  top: 90%;
+  left: 2%;
   border-radius: 30px;
   text-align: center;
   opacity: .5;

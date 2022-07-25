@@ -2079,10 +2079,10 @@ section {
 
 .name {
   margin-left: -1rem;
-  font-size: 0.8rem;
+  font-size: 1rem;
 }
 
-@media (min-width: 900px) {
+@media (min-width: 1200px) {
 
   .name {
     margin-left: 0rem;
