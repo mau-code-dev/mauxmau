@@ -44,7 +44,7 @@
               "Icon5": "",
 
               "ratio": "",
-              "video": "<div class='framer'><div class='ratio ratio-4x3 m-auto'><iframe src='portSpeaker1/speakerBud.html'  ></iframe></div></div>",
+              "video": "<div class='framer'><div class='ratio ratio-4x3 m-auto'><iframe src='portSpeaker1/index.html'  ></iframe></div></div>",
               "widthLg": "800",
               "heightLg": "600",
               
