@@ -2317,6 +2317,12 @@ form {
   min-width: 6rem;
 }
 
+@media (min-width: 1000px) {
+#drkMd {
+  left: 0rem;
+}
+}
+
 #drkMdBtn {
   height: 1rem;
   background-color: #eee;
