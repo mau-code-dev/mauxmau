@@ -574,7 +574,7 @@ function drkmode() {
      f.classList.toggle('dark1-bg');  
      k.classList.toggle('dark1-text'); 
      g.classList.toggle('dark1-bg');  
-     h.classList.toggle('dark1-bg');  
+    
      n.classList.toggle('dark1-bg');  
      
      for(i = 0; i < m.length; i++) {
