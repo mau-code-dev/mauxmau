@@ -22,6 +22,18 @@
       
 }
 
+#boxa1 {
+      display: none;
+}
+
+@media (min-width: 1200px) {
+      #boxa1 {
+            display: block;
+      }
+}
+
+
+
 .modal-w3 {
       display: none;
       
