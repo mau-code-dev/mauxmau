@@ -454,19 +454,19 @@ a.close.disabled {
 .navShade {
   box-shadow: 8px 10px 12px rgba(121, 121, 121, .271) !important;
   height: 3rem;
-  transition: 2s;
+  transition: 500ms;
   
 }
 
 #mainNav {
-  
-  transition: 1s;
- 
-  z-index: 22
+  height: 4rem;
+  transition: 300ms;
+ background: #f0f0f0;
+  z-index: 22;
 }
 
 mainNav:hover {
-  background: rgba(200, 200, 200, 1)
+  ackground: rgba(200, 200, 200, 1)
 }
 
 .text-md-primary {
@@ -2078,8 +2078,19 @@ section {
 }
 
 .name {
-  margin-left: 0rem
+  margin-left: -1rem;
+  font-size: 0.8rem;
 }
+
+@media (min-width: 900px) {
+
+  .name {
+    margin-left: 0rem;
+    font-size: 1.25rem;
+  }
+}
+
+
 
 .accent-3 {
   color: rgb(87, 87, 87)
@@ -2142,8 +2153,10 @@ transition: 500ms;
 }
 
 
+#navbarResponsive {
+  background: #f0f0f0;
 
-
+}
 
 
 #rowStack {
@@ -2165,8 +2178,8 @@ transition: 500ms;
 
 
 .navbar {
-  padding-top: 0 !important;
-  padding-bottom: 0 !important;
+  padding-top: 0rem !important;
+  padding-bottom: 0rem  !important;
 }
 
 
@@ -2286,7 +2299,8 @@ form {
   position: relative;
   float: right;
   color: #aaa;
-  font-size: .5rem
+  font-size: .5rem;
+  min-width: 6rem;
 }
 
 #drkMdBtn {
@@ -2297,7 +2311,8 @@ form {
   border: 0;
   position: absolute;
   margin: 0 0 0 .5rem;
-  border-radius: 2rem
+  border-radius: 2rem;
+  
 }
 
 #drkDot {
