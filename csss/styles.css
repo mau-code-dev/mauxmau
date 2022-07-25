@@ -2298,6 +2298,8 @@ form {
     border: 2px solid #777;
     background: transparent;
     display: inline;
+    position: relative;
+    
   }
 }
 
@@ -2358,4 +2360,9 @@ form {
 
 #navbarmar {
   margin-right: 2rem;
+}
+
+#fullBtnSet {
+position: absolute;
+left: 50%;
 }

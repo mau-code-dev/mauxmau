@@ -45,6 +45,9 @@
                "ratio": "ratio ratio-16x9",
                "video": "",
                "img": "assets/img/trumble.jpg",
+               "imgvis1": "",
+               "img2": "assets/img/trumble.jpg",
+               "imgvis2": "",
 
               "widthLg": "450",
               "heightLg": "450",  

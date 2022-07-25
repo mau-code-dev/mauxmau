@@ -45,6 +45,9 @@
                "ratio": "ratio ratio-16x9",
                "video": "",
                "img": "assets/img/zarro_1.jpg",
+               "imgvis1": "",
+               "img2": "",
+               "imgvis2": "none",
 
               "widthLg": "450",
               "heightLg": "450",  
