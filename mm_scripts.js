@@ -519,14 +519,14 @@ var arr = [1,2,3]
 
 
 
-$(pageSlide).appendTo("#userdata"+"-" + j );
+
 
 
 $(markDir1).css({'left': CML1, 'top': CMT1 }); 
 $(markDir2).css({'left': CML2 , 'top': CMT2 }); 
 $(markDir3).css({'left': CML3 , 'top': CMT3 }); 
 
-
+$(pageSlide).appendTo("#userdata"+"-" + j );
 
 });
 
