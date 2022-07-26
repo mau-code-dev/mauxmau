@@ -84,3 +84,16 @@ var btn = document.getElementsByClassName('Hotspot');
 
 btnCon.addEventListener("click", btnConVis);
 
+/* 
+var isSafari = navigator.vendor && navigator.vendor.indexOf('Apple') > -1 &&
+navigator.userAgent &&
+navigator.userAgent.indexOf('CriOS') == -1 &&
+navigator.userAgent.indexOf('FxiOS') == -1;
+var el = document.createElement("p");
+el.innerText = "Is it Safari: " + isSafari;
+if (isSafari == True) {
+var ttt = document.getElementById("test");
+ttt.style.display = "inline";
+}
+var isSafari2 = window.safari !== undefined;
+if (isSafari2) alert("Safari, yeah!"); */
