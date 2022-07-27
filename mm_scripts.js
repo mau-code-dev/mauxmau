@@ -615,9 +615,9 @@ function drkmode() {
 
 
 
-var drkmd = document.getElementById('drkMdBtn');
+var drkmd = document.getElementById("drkMdBtn");
 
-drkmd.addEventListener('click', drkmode);
+      drkmd.addEventListener("click", drkmode);
 
 
 
