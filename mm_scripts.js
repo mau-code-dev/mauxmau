@@ -4,7 +4,7 @@
 
 
 var json = [
-       0,  
+       '0.json',  
       'mg-phone.json',
       'mg-turntable.json',
       'mg-sanitizer.json',
